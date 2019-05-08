@@ -12,7 +12,7 @@ c++;
 }
 if(c==2)
 {
-printf("yes");
+printf("");
 }
 else{
 printf("no");
