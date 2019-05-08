@@ -14,8 +14,8 @@ result +=Math.pow(remainder,n);
 OriginalNumber=number;
 }
 if(result ==number)
-System.out.println(number +"is an Armstrong number.");
+System.out.println(number +"is Yes.");
 else 
-S ystem.out.println(number + "is not an Armstrongnumber.");
+S ystem.out.println(number + "is not an No.");
 }
 }
