@@ -6,11 +6,12 @@ public staticvoid main(String[]args)
 {
 int number=371,OriginalNumber,remainder,result=0;
 OriginalNumber = number;
-while (OriginalNumber!=0)
+for(;OriginalNumber !=0;OriginalNumber /=10,++n
+(OriginalNumber!=0)
 {
 remainder=OrginalNumber%10;
-result +=Math.pow(remainder,3);
-OriginalNumber=number/=10;
+result +=Math.pow(remainder,n);
+OriginalNumber=number;
 }
 if(result ==number)
 System.out.println(number +"is an Armstrong number.");
