@@ -14,8 +14,8 @@ result +=Math.pow(remainder,n);
 OriginalNumber=number;
 }
 if(result ==number)
-System.out.println(number +"is Yes.");
+System.out.println(number +" Yes.");
 else 
-S ystem.out.println(number + "is not an No.");
+S ystem.out.println(number + " no.");
 }
 }
