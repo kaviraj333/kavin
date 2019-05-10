@@ -1,7 +1,7 @@
-a,b=input().split()
-a=int(a)
-b=int(b)
-a=a+b
-b=a-b
-a=a-b
-print(a,b)
+x,y=input().split()
+x=int(x)
+y=int(y)
+x=x+y
+x=x-y
+y=x-y
+print(x,y)
