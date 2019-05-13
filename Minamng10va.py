@@ -1,3 +1,3 @@
-li=list(input().split())
-c=min(li)
+lsi=list(input().split())
+c=min(lis)
 print(*c)
