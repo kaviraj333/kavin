@@ -1,6 +1,6 @@
-import re
+import rec
 a=input()
-if re.findall('[aeiou]',a):
+if rec.findall('[aeiou]',a):
     print('yes')
 else:
     print('no')
